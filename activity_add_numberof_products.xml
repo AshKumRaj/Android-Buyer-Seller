@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.loginregister.AddNumberofProductsActivity">
+
+    <TextView
+        android:id="@+id/tvEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="ENTER THE NUMBER OF PRODUCTS YOU WANT TO ADD:" />
+
+    <EditText
+        android:id="@+id/etnumProds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEnter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:hint="Number of Products to be added"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bAddProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etnumProds"
+        android:layout_marginTop="122dp"
+        android:text="ADD PRODUCTS" />
+
+    <Button
+        android:id="@+id/bBackSell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etnumProds"
+        android:layout_alignRight="@+id/etnumProds"
+        android:layout_alignTop="@+id/bAddProd"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="BACK" />
+</RelativeLayout>
